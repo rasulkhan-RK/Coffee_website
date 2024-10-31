@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---Main CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Coffee Website!</title>
+
+    <!--Fons & Icons Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!--JQUERY-Link-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+<body>
+    <!--Header Section Start-->
+
+    <header class="header">
+            <div class="logo">
+                <img src="Images/Logo.jpg" alt="logo">
+            </div>
+
+            <nav class="links">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#product">product</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+
+            <div class="icons">
+                <i class="ri-search-line" id="search-btn"></i>
+                <i class="ri-shopping-cart-line" id="cart-btn"></i>
+                <i class="ri-apps-line" id="menu-btn"></i>
+            </div>
+
+             <div class="serach-form">
+                <input type="search" id="serach-icon" placeholder="Search here....">
+                <label for="serach-icon" class = "ri-search-line"></label>
+            </div> 
+
+            <div class="cart-items-container">
+
+                <div class="cart-item">
+                    <span class="ri-close-line"></span>
+                    <img src="https://cdn.pixabay.com/photo/2017/04/25/08/02/coffee-beans-2258839_960_720.jpg" alt="">
+                    <div class="content">
+                        <h3>Cart item 01</h3>
+                        <div class="price">₹ 28.00/-</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="ri-close-line"></span>
+                    <img src="https://cdn.pixabay.com/photo/2015/05/31/10/54/coffee-791045_960_720.jpg" alt="">
+                    <div class="content">
+                        <h3>Cart item 02</h3>
+                        <div class="price">₹ 32.00/-</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="ri-close-line"></span>
+                    <img src="https://cdn.pixabay.com/photo/2023/06/16/03/36/coffee-8066888_960_720.jpg" alt="">
+                    <div class="content">
+                        <h3>Cart item 03</h3>
+                        <div class="price">₹ 18.00/-</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="ri-close-line"></span>
+                    <img src="https://cdn.pixabay.com/photo/2012/02/23/09/16/coffee-15994_960_720.jpg" alt="">
+                    <div class="content">
+                        <h3>Cart item 04</h3>
+                        <div class="price">₹ 22.00/-</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="ri-close-line"></span>
+                    <img src="https://cdn.pixabay.com/photo/2019/05/12/13/13/coffee-4198012_960_720.jpg" alt="">
+                    <div class="content">
+                        <h3>Cart item 05</h3>
+                        <div class="price">₹ 42.00/-</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">chekout now</a>
+            </div>
+
+    </header>
+
+    <!--Home Section Start-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh coffee in the morning!</h3>
+            <p>Caffeine is a natural stimulant that helps you wake up and feel more alert. </p>
+                <a href="#" class="btn">get yours now</a>
+        </div>
+    </section>
+
+     <!--Home Section End-->
+
+     <!--About Section Start-->
+
+     <section class="about" id="about">
+        <h1 class="heading"><span>about</span>_us</h1>
+
+        <div class="row">
+
+            <div class="content">
+               <h1>What makes our coffee special?</h1>
+               <p>First, it's the plant itself. Specialty coffee is exclusively made of a family 
+                of varieties under the Arabica species.
+                 Coffea Arabica is a delicate plant that is prone to diseases and requires specific 
+                 conditions to grow- rich soil and high altitudes.</p>
+                 <p>Coffee is thought to date back to 800 A.D., where it was discovered by 9th century goat herders.
+                     It was said that they noticed their goats eating the plant and afterwards it appeared like they were 
+                     'dancing'. Fascinated by the results, the goat herder tried them himself and discovered that it made him
+                      excitable too.</p>
+                    <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="image">
+                <img src="https://cdn.pixabay.com/photo/2016/11/21/13/09/caffeine-1845314_1280.jpg" alt="">
+            </div>
+
+        </div>
+
+     </section>
+
+     <!--About Section Start-->
+
+     <!-- Menu section Start -->
+      <section class="menu" id="menu">
+
+        <h1 class="heading"> Our<span>menu</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_960_720.jpg" alt="">
+                <h3>tasty and helthy</h3>
+                <div class="price"> ₹37.00/-  <span>₹57.00/*</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2020/03/07/05/18/coffee-4908764_640.jpg" alt="">
+                <h3>best for evening</h3>
+                <div class="price"> ₹27.00/- <span>₹47.00/*</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/12/46/coffee-1869599_640.jpg" alt="">
+                <h3>For couples</h3>
+                <div class="price"> ₹57.00/- <span>₹77.00/*</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2012/02/23/09/16/coffee-15994_640.jpg" alt="">
+                <h3>Less sugar</h3>
+                <div class="price"> ₹47.00/- <span>₹67.00/*</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2016/11/21/13/09/caffeine-1845314_1280.jpg" alt="">
+                <h3>Milky chocolate</h3>
+                <div class="price"> ₹37.00/-  <span>₹47.00/*</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2017/03/13/12/34/coffee-2139592_640.jpg" alt="">
+                <h3>morning time</h3>
+                <div class="price"> ₹67.00/- <span>₹87.00/*</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+      </section>
+
+     <!-- Menu section End -->
+
+     <!---Product Section Start-->
+     <section class="product" id="product">
+        <h1 class="heading"> <span>prod</span>ucts</h1>
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <div class="icons">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-heart-3-line"></i>
+                    <i class="ri-eye-line"></i>
+                </div>
+                <div class="image">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/14/17/58/coffee-8388244_640.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+                    <div class="price">₹50.00/-<span>₹65.00/-</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-heart-3-line"></i>
+                    <i class="ri-eye-line"></i>
+                </div>
+                <div class="image">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/03/12/11/coffee-7632568_640.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>filtter coffee</h3>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+                    <div class="price">₹85.00/-<span>₹105.00/-</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-heart-3-line"></i>
+                    <i class="ri-eye-line"></i>
+                </div>
+                <div class="image">
+                    <img src="https://cdn.pixabay.com/photo/2021/12/07/23/09/cup-6854258_640.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>House Blend</h3>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+                    <div class="price">₹55.00/-<span>₹95.00/-</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-heart-3-line"></i>
+                    <i class="ri-eye-line"></i>
+                </div>
+                <div class="image">
+                    <img src="https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_640.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Leo Coffee (SI)</h3>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+                    <div class="price">₹75.00/-<span>₹95.00/-</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-heart-3-line"></i>
+                    <i class="ri-eye-line"></i>
+                </div>
+                <div class="image">
+                    <img src="https://cdn.pixabay.com/photo/2019/11/25/06/21/coffee-4651087_640.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Holiday Blend Medium</h3>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+                    <div class="price">₹70.00/-<span>₹85.00/-</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-heart-3-line"></i>
+                    <i class="ri-eye-line"></i>
+                </div>
+                <div class="image">
+                    <img src="https://cdn.pixabay.com/photo/2020/03/07/05/18/coffee-4908764_640.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Filter Large</h3>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+                    <div class="price">₹50.00/-<span>₹65.00/-</span></div>
+                </div>
+            </div>
+
+
+
+        </div>
+     </section>
+     <!---Product Section End-->
+
+      <!---Review Section Start-->
+
+      <section class="review" id="review">
+
+        <h1 class="heading"> coustmer's<span>_reviews</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#"> <i class="ri-double-quotes-r"></i> </a>
+                <p>For coffee lovers, a place to chill out with a drink, hot or cold, zero or packed with calories,
+                     as you like it. And tuck in some yummy bakery products, sweet and salty. Nice ambience and with
+                      free wifi, it's a place to enjoy alone time or with family. Needless to mention the coffee is par 
+                      excellence. Hygiene standards up to expectations.</p>
+                      <img src="https://engineering.unl.edu/images/staff/Kayla-Person.jpg" alt="" class="user">
+                      <h3>Victoria</h3>
+                      <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+            </div>
+
+            <div class="box">
+                <a href="#"> <i class="ri-double-quotes-r"></i> </a>
+                <p>It's Christmas season, if you are looking to spend some quality time with good coffee and 
+                    food then this is the place! Third Wave Coffee Roasters has launched all new Winter Menu. Had 
+                    been to HSR layout for brunch and 
+                    I totally loved it here. Having Plum cakes during Christmas is a must 😋 Loved their fresh Apple pie too..</p>
+                      <img src="https://img.freepik.com/premium-photo/man-wearing-white-t-shirt-university-campus_53876-161264.jpg" alt="" class="user">
+                      <h3>Sam Alax</h3>
+                      <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+            </div>
+
+            <div class="box">
+                <a href="#"> <i class="ri-double-quotes-r"></i> </a>
+                <p>'Work-friendly' is an understatement for Third Wave. They *want* you to work at Woke. It's an unapologetic Starbucks
+                     for hardcore workers. Unlike some other chains (cough, cough) servers don't roam around to ensure whether you actually 
+                     . I hope these folks open something in Mumbai. 
+                     There's an acute shortage of such cafes here..</p>
+                      <img src="https://cdn.prod.website-files.com/62b1b17308b0d74291186304/634961cf8f900561629af98d_Tobi-new.jpg" alt="" class="user">
+                      <h3>John Neo</h3>
+                      <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-line"></i>
+                    </div>
+            </div>
+
+        </div>
+
+
+
+
+
+      </section>
+
+       <!--Review Section End-->
+
+        <!--Contact Section Start-->
+
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contact_</span>Us</h1>
+
+            <div class="row">
+
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.282093694555!2d75.12382027458655!3d15.361201358004182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                1s0x3bb8d74ff869c513%3A0x4b1d801924b117ba!2sApponix%20Technologies!5e0!3m2!1sen!2sin!4v1722540375921!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen=""
+                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <form action="post">
+                    <h3>get in touch</h3>
+                    <div class="input-box">
+                        <span  class="ri-user-3-line"></span>
+                        <input type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="ri-mail-line"></span>
+                        <input type="email" placeholder="email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span  class="ri-phone-line"></span>
+                        <input type="number" placeholder="Number">
+                    </div>
+                    <input type="submit" value="contact now" class="btn">
+
+                </form>
+
+            </div>
+
+        </section>
+
+         <!--Contact Section End-->
+
+          <!--Blog Section Start-->
+          <section class="blog" id="blogs">
+            <h1 class="heading">our<span>_blogs</span></h1>
+
+            <div class="box-container">
+                
+                <div class="box">
+
+                    <div class="image">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/29/13/54/breakfast-1870009_640.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <a href="#" class="tittle">testy and refreshing coffee</a>
+                        <span>by admin / 21st may 2021</span>
+                        <p>If you want a smooth cup of coffee without much acidity, go with a cold-brewed selection.
+                             If you'd prefer to smell notes of nuts, cherries or chocolate.</p>
+                             <a href="#" class="btn">See more</a>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="image">
+                        <img src="https://cdn.pixabay.com/photo/2021/04/05/21/32/coffee-6154681_640.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <a href="#" class="tittle">taste good</a>
+                        <span>by admin / 21st may 2021</span>
+                        <p>Taste. Good coffee has a rich and dense flavor, it is aromatic, full, 
+                            slightly sweet and fragrant and delivers a long-lasting aftertaste. </p>
+                             <a href="#" class="btn">See more</a>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="image">
+                        <img src="https://cdn.pixabay.com/photo/2024/05/18/16/41/drink-8770621_640.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <a href="#" class="tittle">testy and refreshing coffee</a>
+                        <span>by admin / 21st may 2021</span>
+                        <p>Where to start as a Beginner to coffee. Espresso based coffees, accompanied by milk, 
+                            are usually a good place to start if you're looking to develop. </p>
+                             <a href="#" class="btn">See more</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+          </section>
+          <!--Blog Section End-->
+
+
+          <!-- footer Section Start -->
+           <section class="footer">
+                <div class="share-links">
+                    <a href="#" class="ri-instagram-line"></a>
+                    <a href="#" class="ri-facebook-circle-line"></a>
+                    <a href="#" class="ri-twitter-line"></a>
+                    <a href="#"  class="ri-linkedin-box-line"></a>
+                </div>
+
+                <div class="links">
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#product">product</a>
+                    <a href="#review">review</a>
+                    <a href="#contact">contact</a>
+                    <a href="#blogs">blogs</a>
+                </div>
+
+                <div class="creat">Created by <span>Mr. Rizwan</span> | all rights reserved</div>
+
+           </section>
+           <!-- footer Section End -->
+
+    
+    
+
+
+
+
+
+
+
+
+
+    <!--Script JS Link-->
+    <script src="app.js"></script>
+</body>
+</html>
